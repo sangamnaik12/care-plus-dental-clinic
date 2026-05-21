@@ -8,8 +8,7 @@
       name="description"
       content="Care Plus Dental Clinic on Hospital Road, Sundargarh, led by Dr. Shrutimayee Patel, B.D.S., for checkups, cleaning, fillings, RCT, crowns, extractions, and family dental care."
     />
-    <meta name="theme-color" content="#0d3b8e" />
-    <link rel="preload" href="styles.css" as="style" />
+    <meta name="theme-color" content="#123c69" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
     <script type="application/ld+json">
@@ -47,8 +46,8 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Care Plus Dental Clinic home">
-        <span class="brand-mark">+</span>
-        <span>
+        <span class="brand-plus">+</span>
+        <span class="brand-text">
           <strong>Care Plus</strong>
           <small>Dental Clinic</small>
         </span>
@@ -59,192 +58,130 @@
         <span></span>
         <span class="sr-only">Menu</span>
       </button>
+      <a class="mobile-header-call" href="tel:+918144704298">Call</a>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#doctor">Doctor</a>
-        <a href="#clinic">Clinic</a>
         <a href="#location">Location</a>
-        <a class="nav-cta" href="tel:+918144704298">Call Now</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-call" href="tel:+918144704298">Call</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero section-band">
-        <div class="hero-copy">
-          <p class="eyebrow">Opening soon on Hospital Road, Sundargarh</p>
-          <h1>Gentle dental care for healthy, confident smiles.</h1>
-          <p class="hero-lede">
-            Care Plus Dental Clinic is led by Dr. Shrutimayee Patel, B.D.S.,
-            Dental Surgeon, bringing comprehensive family dental care to
-            Sundargarh.
-          </p>
-          <div class="hero-actions" aria-label="Appointment actions">
-            <a class="button primary" href="tel:+918144704298">Call +91 81447 04298</a>
-            <a
-              class="button secondary"
-              href="https://wa.me/918144704298?text=Hello%20Care%20Plus%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment."
-            >
-              WhatsApp Appointment
-            </a>
-          </div>
-        </div>
-        <div class="hero-visual" aria-label="Care Plus Dental Clinic smile illustration">
-          <div class="visual-card">
-            <img src="assets/tooth-mascot.png" alt="" />
-            <div class="clinic-card">
-              <span>Care Plus Dental Clinic</span>
-              <strong>We restore your smile.</strong>
-              <small>9:00 AM - 8:00 PM</small>
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Opening soon in Sundargarh</p>
+            <h1><span>Care Plus</span> <span>Dental Clinic</span></h1>
+            <p class="hero-lede">
+              Gentle, comprehensive dental care on Hospital Road, led by
+              Dr. Shrutimayee Patel, B.D.S., Dental Surgeon.
+            </p>
+            <div class="hero-actions" aria-label="Appointment actions">
+              <a class="button primary" href="tel:+918144704298">Call +91 81447 04298</a>
+              <a
+                class="button secondary"
+                href="https://wa.me/918144704298?text=Hello%20Care%20Plus%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment."
+              >
+                WhatsApp
+              </a>
             </div>
           </div>
+          <img class="hero-mascot" src="assets/tooth-mascot.png" alt="" />
+        </div>
+        <div class="hero-details" aria-label="Clinic highlights">
+          <div>
+            <span>Doctor</span>
+            <strong>Dr. Shrutimayee Patel, B.D.S.</strong>
+          </div>
+          <div>
+            <span>Registration</span>
+            <strong>Odisha Dental Council 2961-A</strong>
+          </div>
+          <div>
+            <span>Hours</span>
+            <strong>9:00 AM - 8:00 PM</strong>
+          </div>
+          <div>
+            <span>Landmark</span>
+            <strong>Near ICICI Bank, Hospital Road</strong>
+          </div>
         </div>
       </section>
 
-      <section class="trust-strip" aria-label="Clinic highlights">
-        <div>
-          <strong>B.D.S.</strong>
-          <span>Dental Surgeon</span>
-        </div>
-        <div>
-          <strong>Regd. No. 2961-A</strong>
-          <span>Odisha Dental Council</span>
-        </div>
-        <div>
-          <strong>3 years</strong>
-          <span>Clinical experience</span>
-        </div>
-        <div>
-          <strong>Hospital Road</strong>
-          <span>Sundargarh</span>
-        </div>
-      </section>
-
-      <section id="services" class="services section-wrap">
+      <section id="services" class="section services">
         <div class="section-heading">
-          <p class="eyebrow">Services</p>
-          <h2>Everyday dental care, explained clearly.</h2>
+          <p class="eyebrow">Dental care</p>
+          <h2>Practical treatments for everyday dental needs.</h2>
+        </div>
+        <div class="service-list">
+          <article>
+            <span class="service-icon">+</span>
+            <div>
+              <h3>Checkups and treatment planning</h3>
+              <p>Oral examination, diagnosis, clear next steps, and preventive guidance.</p>
+            </div>
+          </article>
+          <article>
+            <span class="service-icon">+</span>
+            <div>
+              <h3>Cleaning, scaling, fillings</h3>
+              <p>Routine care for gums, cavities, restorations, and oral hygiene support.</p>
+            </div>
+          </article>
+          <article>
+            <span class="service-icon">+</span>
+            <div>
+              <h3>RCT, crowns, bridges</h3>
+              <p>Restorative treatment support including root canal care, crowns, FPD, and impressions.</p>
+            </div>
+          </article>
+          <article>
+            <span class="service-icon">+</span>
+            <div>
+              <h3>Extractions and pediatric care</h3>
+              <p>Careful tooth removal when needed and a calm approach for children.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="doctor" class="doctor-section">
+        <div class="doctor-copy">
+          <p class="eyebrow">Meet the dentist</p>
+          <h2>Dr. Shrutimayee Patel, B.D.S.</h2>
+          <p class="doctor-role">Dental Surgeon, Odisha Dental Council Regd. No. 2961-A</p>
           <p>
-            From routine checkups to restorative treatment, the clinic is planned
-            around practical, patient-friendly dental care for adults and children.
+            Dr. Patel completed her Bachelor of Dental Surgery from Triveni
+            Institute of Dental Sciences, Hospital and Research Centre, Bilaspur.
+            Her clinical experience includes comprehensive dental care at Smile
+            Dental Clinic, Belpahar.
           </p>
         </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="icon">01</span>
-            <h3>Checkups & diagnosis</h3>
-            <p>Oral examination, dental concern review, and clear treatment planning.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">02</span>
-            <h3>Scaling & cleaning</h3>
-            <p>Professional cleaning support for healthier gums and fresher breath.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">03</span>
-            <h3>Fillings & restorations</h3>
-            <p>Care for cavities and damaged teeth with a focus on preserving tooth structure.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">04</span>
-            <h3>Root canal treatment</h3>
-            <p>Treatment planning for infected or painful teeth that may be saved.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">05</span>
-            <h3>Crowns & bridges</h3>
-            <p>Support for crown cutting, FPD planning, impressions, and replacement options.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">06</span>
-            <h3>Extractions</h3>
-            <p>Careful assessment and tooth removal when extraction is the right option.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">07</span>
-            <h3>Pediatric care</h3>
-            <p>A calm, friendly approach for children and first-time dental visits.</p>
-          </article>
-          <article class="service-card">
-            <span class="icon">08</span>
-            <h3>Preventive guidance</h3>
-            <p>Simple oral hygiene advice to help patients protect their smiles at home.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="doctor" class="doctor section-band">
-        <div class="doctor-panel">
-          <div class="doctor-badge">Dr.</div>
+        <div class="doctor-facts">
           <div>
-            <p class="eyebrow">Meet the dentist</p>
-            <h2>Dr. Shrutimayee Patel, B.D.S.</h2>
-            <p class="doctor-role">Dental Surgeon, Odisha Dental Council Regd. No. 2961-A</p>
-            <p>
-              Dr. Patel completed her Bachelor of Dental Surgery from Triveni
-              Institute of Dental Sciences, Hospital and Research Centre,
-              Bilaspur, and has clinical experience from Smile Dental Clinic,
-              Belpahar.
-            </p>
-            <p>
-              Her practice focus includes diagnosis, treatment planning,
-              restorations, scaling, RCT, crowns, extractions, impressions, and
-              pediatric patient care.
-            </p>
-          </div>
-        </div>
-        <div class="doctor-highlights">
-          <div>
-            <strong>Clear consultation</strong>
-            <span>Patients are guided through concerns, options, and next steps.</span>
+            <strong>3 years</strong>
+            <span>Clinical experience</span>
           </div>
           <div>
-            <strong>Family-friendly care</strong>
-            <span>Designed for routine dental needs across age groups.</span>
+            <strong>Family care</strong>
+            <span>Adults and children</span>
           </div>
           <div>
-            <strong>Preventive approach</strong>
-            <span>Oral hygiene education is part of the patient experience.</span>
+            <strong>Clear guidance</strong>
+            <span>Diagnosis, options, follow-up</span>
           </div>
         </div>
       </section>
 
-      <section id="clinic" class="clinic section-wrap">
-        <div class="section-heading">
-          <p class="eyebrow">Clinic experience</p>
-          <h2>A calm place for practical dental care.</h2>
-          <p>
-            Care Plus Dental Clinic is being prepared as a local, accessible clinic
-            where patients can receive careful examination, treatment planning, and
-            follow-up support.
-          </p>
-        </div>
-        <div class="experience-grid">
-          <div class="experience-item">
-            <span></span>
-            <h3>Patient-friendly communication</h3>
-            <p>Dental concerns and treatment options are discussed in simple language.</p>
-          </div>
-          <div class="experience-item">
-            <span></span>
-            <h3>Hygienic workflow</h3>
-            <p>The clinic is planned with appropriate biomedical waste handling procedures.</p>
-          </div>
-          <div class="experience-item">
-            <span></span>
-            <h3>Convenient local access</h3>
-            <p>Located near ICICI Bank on Hospital Road for easy landmark-based navigation.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="location" class="location section-band">
+      <section id="location" class="section location">
         <div class="location-copy">
-          <p class="eyebrow">Location & hours</p>
-          <h2>Find us on Hospital Road.</h2>
+          <p class="eyebrow">Location</p>
+          <h2>Hospital Road, Sundargarh.</h2>
           <address>
             Sumedha Binod Complex, in front of ICICI Bank,<br />
-            Hospital Road, Ward No. 14,<br />
-            Sundargarh, Odisha 770001
+            Hospital Road, Ward No. 14, Sundargarh, Odisha 770001
           </address>
           <dl class="hours">
             <div>
@@ -260,24 +197,28 @@
             class="button primary"
             href="https://www.google.com/maps/search/?api=1&query=Sumedha%20Binod%20Complex%20ICICI%20Bank%20Hospital%20Road%20Sundargarh%20770001"
           >
-            Get Directions
+            Get directions
           </a>
         </div>
-        <div class="map-card" aria-label="Map placeholder">
-          <span>Hospital Road</span>
-          <strong>Care Plus Dental Clinic</strong>
-          <small>Near ICICI Bank, Sundargarh</small>
+        <div class="location-panel">
+          <iframe
+            title="Map showing Care Plus Dental Clinic area on Hospital Road, Sundargarh"
+            src="https://www.google.com/maps?q=Sumedha%20Binod%20Complex%20ICICI%20Bank%20Hospital%20Road%20Sundargarh%20770001&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="map-caption">
+            <span>Nearby landmark</span>
+            <strong>ICICI Bank, Hospital Road</strong>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="contact section-wrap">
+      <section id="contact" class="section contact">
         <div class="section-heading">
           <p class="eyebrow">Appointments</p>
           <h2>Request a visit.</h2>
-          <p>
-            Send a quick enquiry and the clinic can confirm availability once
-            appointments open.
-          </p>
+          <p>Send your details on WhatsApp and the clinic can confirm availability.</p>
         </div>
         <form class="contact-form" id="appointment-form">
           <label>
@@ -304,7 +245,7 @@
     <footer class="site-footer">
       <div>
         <strong>Care Plus Dental Clinic</strong>
-        <span>Led by Dr. Shrutimayee Patel, B.D.S.</span>
+        <span>Dr. Shrutimayee Patel, B.D.S.</span>
       </div>
       <div class="footer-links">
         <a href="tel:+918144704298">+91 81447 04298</a>
@@ -312,7 +253,5 @@
         <a href="#location">Hospital Road, Sundargarh</a>
       </div>
     </footer>
-
-    <a class="mobile-call" href="tel:+918144704298">Call Clinic</a>
   </body>
 </html>
